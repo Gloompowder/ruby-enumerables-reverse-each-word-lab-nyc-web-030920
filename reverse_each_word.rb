@@ -14,4 +14,5 @@ def reverse_each_word (sentence)
   greeting.collect {|word| "#{word}"}
   greeting 
   greeting.join.strip
+  binding.pry
 end
