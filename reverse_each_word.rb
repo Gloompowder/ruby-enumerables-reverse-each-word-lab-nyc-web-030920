@@ -12,7 +12,6 @@ require 'pry'
 def reverse_each_word (sentence)
   greeting = sentence.reverse.split 
   greeting.collect {|word| "#{word}"}
-end
   greeting 
   greeting.join.strip
 end
