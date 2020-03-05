@@ -13,7 +13,7 @@ def reverse_each_word (sentence)
   greeting = sentence.reverse.split
 greeting.each do |word| 
   greeting.collect "#{word} "
-  greeting
+  greeting.pop
 end
 greeting
 greeting.join.strip
