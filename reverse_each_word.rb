@@ -16,5 +16,4 @@ greeting.each do |word|
 end
 greeting
 greeting.join.strip
-
 end
