@@ -4,7 +4,6 @@ def reverse_each_word (sentence)
   better_greeting = []
   greeting.each do |word|
     better_greeting.unshift "#{word} "
-  end 
 end
 better_greeting
 better_greeting.join.strip
