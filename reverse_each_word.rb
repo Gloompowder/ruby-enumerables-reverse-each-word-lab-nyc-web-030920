@@ -11,8 +11,8 @@ require 'pry'
 
 def reverse_each_word (sentence)
   greeting = sentence.reverse.split
-binding.pry
- 
+greeting.each do |word| 
+  greeting.collect "#{word} "
 greeting
 greeting.join.strip
 end
