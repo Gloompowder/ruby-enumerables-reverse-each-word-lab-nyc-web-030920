@@ -13,6 +13,6 @@ def reverse_each_word (sentence)
   greeting = sentence.reverse.split
 binding.pry
  
-better_greeting
-better_greeting.join.strip
+greeting
+greeting.join.strip
 end
